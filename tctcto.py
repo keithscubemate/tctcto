@@ -6,8 +6,7 @@ def leq(ri, t=False): return [t:=t or (len(set(r))==1 and r[0]!=' ') for r in ri
 def pl(t): return "OX"[t%2]
 def pr(b): [print(r) for r in cr(b)]
 
-t = 0;
-bd=[' '] * 9
+bd, t = [' '] * 9, 0
 
 pr(bd)
 while (n := input()):
